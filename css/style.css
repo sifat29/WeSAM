@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+}
+.action_bar{
+    border-bottom: 1px solid #b9b9b9;
+    font-size: 13px;color: #acacac;
+    background-color:black;
+}
+
+.fa-envelope,.fa-phone-alt{
+    color: #fdce16;
+}
+.social i{
+    color: #acacac;
+}
+.social a{
+    border-right: 1px solid #b9b9b9;padding: 0 10px;
+}
+.social{
+    padding-left: 0;
+}
+.logo-img{
+    height: 40px;
+    width: 70px;
+}
+.navbar{
+    font-size: 13px;
+    padding: 0 32px;
+}
+.navbar a{
+    font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    padding: 32px 8px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:chocolate;
+    border-top: 2px solid #fdce16;padding-top: 30px;
+}
+#s1{
+    padding: 5%;
+    background-image: url(../images/Camada%20735.png);
+    background-size: 100% 100%;
+
+}
+.wesam{
+    font-size: 100px;
+    margin-left: 100px;
+    color: azure;
+}
+.foco{
+    display: block;
+    margin: auto;
+}
+#s1 hr{
+    border-color: white;
+}
+#s1 p{
+    color: white;
+    font-size: 12px;
+}
+.con{
+    height: 40px;
+    width: 120px;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.orc{
+    height: 40px;
+    width: 120px;
+    font-size: 13px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    /* border: none; */
+    border-radius: 3px;
+}
+.log-button{
+    color: #acacac;
+    font-size: 20px;
+    text-decoration:none;
+}
+.log-button:hover{
+    text-decoration:none;
+    color: bisque;
+}
+
+/* jku */
+
+#s3{
+    padding: 0 2%;
+    background-image: url(../images/s3.jpg);
+    background-size: 100% 100%;
+    /* background-color: #FF8000; */
+}
+.p3{
+    font-size: 50px;
+    margin-top: 80px;
+    margin-right: 40px;
+}
+.p4{
+    font-size: 20px;
+    margin-top: -20px;
+}
+.p5{
+    font-size: 14px;
+}
+.img1{
+    margin-top: -50px;
+}
+#s4{
+    padding: 5%;
+    background-image: url(../images/s4.jpg);
+    background-size: 100% 100%;
+    padding-bottom: 180px;
+}
+.profile
+{
+    margin-top: 97px;
+    height: 590px;
+    width: 1000px;
+    background-color: rgba(0,0,0,0.1);
+    padding:30px ;
+    border-radius: 5%; 
+   
+}
+.p6{
+    font-size: 45px;
+    text-align: center;
+}
+.img2{
+    display: block;
+    margin: auto;
+    margin-top: -10px;
+}
+.p7{
+    font-size: 14px;
+    text-align: center;
+    color: #727272;
+    margin-top: 20px;
+}
+.img3{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+.p8{
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+.p9{
+    text-align: center;
+    font-size: 14px;
+    color: #727272;
+}
+/* member hover */
+.navbar .dropdown:hover .dropdown-menu {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.navbar .dropdown-menu {
+  box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.12);
+  border-bottom: 5px solid #ffbc3b;
+  padding: 15px;
+  top: 96px;
+  border-radius: 0;
+  display: block;
+  visibility: hidden;
+  transition: .3s ease;
+  opacity: 0;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  background: #fff;
+}
+
+/* jvj */
+footer{
+    padding: 1%;
+    background-image: url(../images/bottom-strip.png);
+    background-size: 100% 100%;
+}
+footer .container{
+    padding-top: 70px;
+}
+footer span{
+    font-size: 13px;
+    color: #858585;
+}
+.Copyright{
+    margin-top: 50px;
+}
+footer img{
+    margin-top: -40px;
+}
+.address{
+    color: aliceblue;
+
+}
+.fot-add{
+    font-size: 30px;
+    color: aquamarine;
+    margin-left: 25px;
+}
+
+
+@media only screen and (max-width:991px){
+    .navbar-light .navbar-nav .nav-link{
+        padding: 8px;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        padding-top: 6px;
+    }
+    .navbar-nav{
+        text-align: right;
+    }
+    #s1 hr{
+        color: white;
+        width: 100px;
+    }
+}
